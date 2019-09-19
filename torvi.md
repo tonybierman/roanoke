@@ -3,4 +3,4 @@ layout: dogs
 title: Torvi
 ---
 
-(assets/content/dogs/torvi/img/DSC_3248.jpg)
+![alt text](assets/content/dogs/torvi/img/DSC_3248.jpg "Logo Title Text 1")
