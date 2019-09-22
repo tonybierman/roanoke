@@ -1,0 +1,13 @@
+layout: dog
+title: Torvi
+fullname: Stoney Point Farm Bierman's Torvi
+breed: Great Pyrenees
+sire: Beckman's Hoss
+dam: Stoney Point Farm Jesse
+dob: 11/24/2018
+registry: AKC
+registration: WS63183401
+ancestor:
+  - Ch KARLEO'S AMERICA BOUND BECKHAM
+  - Ch NAUTIKA'S WENDIGO
+  - Ch RIVERGROVES HONOR AMONG THIEVES

@@ -4,7 +4,6 @@ layout: default
 <article>
 
   <header>
-    <h1>{{ page.title | escape }}</h1>
     <p class="text-muted">
       <time datetime="{{ page.date | date_to_xmlschema }}">
         {%- assign date_format = "%b %-d, %Y" -%}
@@ -17,7 +16,111 @@ layout: default
   </header>
 
   <section>
-      {{ content }}
+      <div class="row">
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-10">
+                    <h1>{{ page.title | escape }}</h1>
+                    {%- if page.breed -%}
+                    <p class="lead">{{ page.breed  | escape }}</p>
+                    {%- endif -%}
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2">DOB</div>
+                <div class="col-sm-10">{{ page.dob | escape }}</div>
+            </div>
+            {%- if page.weight -%}
+            <div class="row">
+                <div class="col-sm-2">Weight</div>
+                <div class="col-sm-10">{{ page.weight | escape }}</div>
+            </div>
+            {%- endif -%}
+            {%- if page.registry -%}
+            <div class="row">
+                <div class="col-sm-2">{{ page.registry  | escape }}</div>
+                <div class="col-sm-10">{{ page.registration  | escape }}</div>
+            </div>
+            {%- endif -%}
+            <div class="row">
+                <div class="col-sm-10"><hr/></div>
+                <div class="col-sm-2"></div>
+            </div>
+            {%- if page.sire -%}
+            <div class="row">
+                <div class="col-sm-2">Sire</div>
+                <div class="col-sm-10">{{ page.sire | escape }}</div>
+            </div>
+            {%- endif -%}
+            {%- if page.dam -%}
+            <div class="row">
+                <div class="col-sm-2">Dam</div>
+                <div class="col-sm-10">{{ page.dam | escape }}</div>
+            </div>
+            {%- endif -%}
+            {%- if page.hips -%}
+            <div class="row">
+                <div class="col-sm-2">Hips</div>
+                <div class="col-sm-10">{{ page.hips | escape }}</div>
+            </div>
+            {%- endif -%}
+            {%- if page.elbows -%}
+            <div class="row">
+                <div class="col-sm-2">Elbows</div>
+                <div class="col-sm-10">{{ page.elbows | escape }}</div>
+            </div>
+            {%- endif -%}
+            {%- if page.knees -%}
+            <div class="row">
+                <div class="col-sm-2">Knees</div>
+                <div class="col-sm-10">{{ page.knees | escape }}</div>
+            </div>
+            {%- endif -%}
+            {%- if page.shoulders -%}
+            <div class="row">
+                <div class="col-sm-2">Shoulders</div>
+                <div class="col-sm-10">{{ page.shoulders | escape }}</div>
+            </div>
+            {%- endif -%}
+            {%- if page.heart -%}
+            <div class="row">
+                <div class="col-sm-2">Heart</div>
+                <div class="col-sm-10">{{ page.heart | escape }}</div>
+            </div>
+            {%- endif -%}
+            {%- if page.eyes -%}
+            <div class="row">
+                <div class="col-sm-2">Eyes</div>
+                <div class="col-sm-10">{{ page.eyes | escape }}</div>
+            </div>
+            {%- endif -%}
+            {%- if page.ancestor -%}
+            <div class="row">
+                <div class="col-sm-10"><hr/></div>
+                <div class="col-sm-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-10">Notable ancestors</div>
+                <div class="col-sm-2"></div>
+            </div>
+              {% for item in page.ancestor %}
+              <div class="row">
+                  <div class="col-sm-10">{{ item | escape }}</div>
+                  <div class="col-sm-2"></div>
+              </div>
+              {% endfor %}
+            {%- endif -%}
+        </div>
+        <div class="col-sm-6 text-center">
+          <div class="fotorama" data-nav="thumbs" data-allowfullscreen="native" data-hash="true" data-autoplay="true">
+          {% for item in page.photos %}
+            <a href="assets/content/dogs/{{ page.title | escape }}/img/mid/{{ item }}"><img src="assets/content/dogs/{{ page.title | escape }}/img/tb/{{ item }}" /></a>
+          {% endfor %}
+          </div>
+          {{ content }}
+        </div>
+      </div>
   </section>
 
 </article>
