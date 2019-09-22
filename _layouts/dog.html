@@ -113,7 +113,7 @@ layout: default
             {%- endif -%}
         </div>
         <div class="col-sm-6 text-center">
-          <div class="fotorama" data-nav="thumbs" data-allowfullscreen="native" data-hash="true" data-autoplay="true">
+          <div class="fotorama" data-nav="thumbs" data-hash="true">
           {% for item in page.photos %}
             <a href="assets/content/dogs/{{ page.title | escape }}/img/mid/{{ item }}"><img src="assets/content/dogs/{{ page.title | escape }}/img/tb/{{ item }}" /></a>
           {% endfor %}
