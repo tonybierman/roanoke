@@ -1,6 +1,7 @@
 ---
 layout: dog
-title: josie
+title: Josie
+slug: josie
 dam: Lorem Ipsum
 sire: Lorem Ipsum
 {0}---

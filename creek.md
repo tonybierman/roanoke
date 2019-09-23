@@ -1,6 +1,7 @@
 ---
 layout: gallery
-title: creek
+slug: creek
+title: The Creek
 photos:
   - 0236_HDR2.jpg
   - 0700_HDR2.jpg

@@ -1,6 +1,7 @@
 ---
 layout: dog
-title: torvi
+slug: torvi
+title: Torvi
 fullname: Stoney Point Farm Bierman's Torvi
 breed: Great Pyrenees
 sire: Beckman's Hoss

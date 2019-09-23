@@ -1,4 +1,5 @@
 ---
-layout: page
+layout: home
 title: Welcome!
 ---
+Home layout

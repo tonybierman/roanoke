@@ -1,6 +1,7 @@
 ---
 layout: dog
-title: hawkeye
+slug: hawkeye
+title: Hawkeye
 dam: Lorem Ipsum
 sire: Lorem Ipsum
 {0}---

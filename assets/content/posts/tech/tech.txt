@@ -1,0 +1,6 @@
+---
+layout: techpost
+title: {0}
+author: Tony Bierman
+{1}---
+Technical Details for Photo

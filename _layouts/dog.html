@@ -20,7 +20,7 @@ layout: default
         <div class="col-sm-6 text-center">
           <div class="fotorama" data-nav="thumbs" data-hash="true">
           {% for item in page.photos %}
-            <a href="assets/content/dogs/{{ page.title | escape }}/img/mid/{{ item }}"><img src="assets/content/dogs/{{ page.title | escape }}/img/tb/{{ item }}" /></a>
+            <a href="assets/content/dogs/{{ page.slug | escape }}/img/mid/{{ item }}"><img src="assets/content/dogs/{{ page.slug | escape }}/img/tb/{{ item }}" /></a>
           {% endfor %}
           </div>
         </div>
