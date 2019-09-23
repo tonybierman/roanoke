@@ -1,8 +1,9 @@
-﻿DSC_2229.jpg
-DSC_2440.jpg
-DSC_3248.jpg
-DSC_3964.jpg
-DSC_7977.jpg
-DSC_8537.jpg
-DSC_9055.jpg
-DSC_9461.jpg
+﻿photos:
+  - DSC_2229.jpg
+  - DSC_2440.jpg
+  - DSC_3248.jpg
+  - DSC_3964.jpg
+  - DSC_7977.jpg
+  - DSC_8537.jpg
+  - DSC_9055.jpg
+  - DSC_9461.jpg
