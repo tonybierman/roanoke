@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<article>
+
+  <header>
+    <p class="text-muted">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {%- assign date_format = "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+        • {{ page.author }}
+      {%- endif -%}
+    </p>
+  </header>
+
+  <section>
+      <div class="row">
+        <div class="col-sm-6 text-center">
+          <div class="fotorama" data-nav="thumbs" data-hash="true">
+          {% for item in page.photos %}
+            <a href="assets/content/galleries/{{ page.title | escape }}/img/mid/{{ item }}"><img src="assets/content/dogs/{{ page.title | escape }}/img/tb/{{ item }}" /></a>
+          {% endfor %}
+          </div>
+        </div>
+        <div class="col-sm-6">
+            {{ content }}
+        </div>
+      </div>
+  </section>
+</article>

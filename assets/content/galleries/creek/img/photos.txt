@@ -1,0 +1,5 @@
+﻿photos:
+  - 0236_HDR2.jpg
+  - 0700_HDR2.jpg
+  - 0712_HDR4.jpg
+  - 0781_HDR2.jpg
