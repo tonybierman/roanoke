@@ -85,10 +85,10 @@
     value: 1400
   - entry:
     key: Keyword
-    value: 100.0 mm f/2.8
+    value: 2019
   - entry:
     key: Keyword
-    value: 2019
+    value: NIKON D850
   - entry:
     key: LensInfo
     value: ImageMagick.ExifRationalArray
@@ -110,6 +110,9 @@
   - entry:
     key: Model
     value: NIKON D850
+  - entry:
+    key: Orientation
+    value: Horizontal (normal)
   - entry:
     key: Quality
     value: 91

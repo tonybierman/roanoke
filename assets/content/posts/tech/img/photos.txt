@@ -2,3 +2,6 @@
   - DSC_0021.jpg
   - DSC_4040.jpg
   - DSC_4054.jpg
+  - DSC_4321.jpg
+  - DSC_4387.jpg
+  - DSC_4418.jpg
