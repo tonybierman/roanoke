@@ -4,6 +4,9 @@
   <meta name="description" content="Roanoke Creek Ranch">
   <meta name="author" content="Tony Bierman">
   <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+  {%- if page.ogimage -%}
+    <meta property="og:image" content="https://tonybierman.github.io/roanoke/{{ page.ogimage | escape }}" />
+  {%- endif -%}
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
