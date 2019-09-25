@@ -9,7 +9,7 @@ layout: default
   <section>
     <div class="container">
       <div class="row d-flex justify-content-center">
-        <span class="border border-warning p-3">
+        <span class="border border-warning p-3 bg-light">
             <figure class="figure">
                 <span class="border border-warning">
                   <img src="/assets/content/posts/tech/img/lg/{{ page.title }}.jpg" class="figure-img img-fluid"
@@ -36,9 +36,9 @@ layout: default
         {% if item.key != "Keyword" %}
           {% assign remainder = forloop.index | modulo: 2 %}
           {% if remainder == 0 %}
-          <div class="row d-flex justify-content-center border bg-light"> 
+          <div class="row d-flex justify-content-center border bg-secondary"> 
           {% else %}
-          <div class="row d-flex justify-content-center border">
+          <div class="row d-flex justify-content-center border text-light bg-dark">
           {% endif %}
             <div class="col-sm-5"><strong>{{ item.key | escape }}</strong></div>
             <div class="col-sm-7">{{ item.value | escape_once }}</div>

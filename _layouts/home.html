@@ -12,14 +12,16 @@ layout: default
   </section>
   <div class="container">
     <div class="row d-flex justify-content-center">
-        <div class="col-sm-6"> 
+        <div class="col-sm-9"> 
             {%- if site.posts.size > 0 -%}
               <p class="h4">{{ page.list_title | default: "Photo Posts" }}</p>
               <ul class="list-unstyled">
                 {%- for post in site.posts -%}
                 <li style="margin-bottom: 25px">
                   <figure class="figure">
-                    <img class="figure-img img-fluid rounded" src="{{ post.thumb | escape }}" />
+                    <a href="{{ post.url | relative_url }}">
+                      <img class="figure-img img-fluid rounded" src="{{ post.thumb | escape }}" />
+                    </a>
                     <figcaption class="figure-caption">
                       <span class="text-muted h6">
                         <a href="{{ post.url | relative_url }}">
@@ -29,7 +31,7 @@ layout: default
                       &middot;
                       <span class="text-muted">
                         {%- assign date_format = "%b %-d, %Y" -%}
-                        {{ post.date | date: date_format }}
+                        <em>{{ post.date | date: date_format }}</em>
                       </span>
                       {%- if site.show_excerpts -%}
                         {{ post.excerpt }}
@@ -42,15 +44,17 @@ layout: default
               <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
             {%- endif -%}
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-3">
             <p class="h4">Tags</p>
+            {% capture site_tags %}
             {% for tag in site.tags %}
-              <h6><a href="/tags/{{ tag[0] | escape_once | url_encode }}.html">{{ tag[0] | escape_once }}</a></h6>
-              <ul>
-                {% for post in tag[1] %}
-                  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-              </ul>
+            {{ tag | first }}
+            {% unless forloop.last %},{% endunless %}
+            {% endfor %}
+            {% endcapture %}
+            {% assign tag_words = site_tags | split:',' | sort %}
+            {% for item in tag_words %}
+                <a href="/tags/{{ item | escape_once | downcase | strip | url_encode }}.html" class="badge badge-info">{{ item | escape_once | downcase | strip}}</a>
             {% endfor %}
         </div>
     </div>
