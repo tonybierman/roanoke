@@ -4,5 +4,5 @@ author: Tony Bierman
 title: lgd
 fname: lgd
 photos:
-  - assets/content/posts/tech/img/DSC_4418.jpg
+  - assets/content/posts/tech/img/DSC_1679.jpg
 ---
