@@ -9,29 +9,27 @@ layout: default
   <section>
 
   <div class="container">
-      <div class="row d-flex justify-content-center">
-          <div class="col-sm-9"> 
-            <p class="h4">{{ page.title | default: "Photos" }}</p>
-            <ul class="list-unstyled">
-              {% for item in page.photos %}
-              {% assign photopath = item | replace: "/img", "/img/mid" %}
-              <li style="margin-bottom: 25px">
-                <figure class="figure">
-                  <a target="_blank" href="/{{ item | escape }}">
-                    <img class="figure-img img-fluid" src="/{{ photopath | escape }}" />
-                  </a>
-                  <figcaption class="figure-caption">
-                      Click Image to Zoom In
-                  </figcaption>
-                </figure>
-              </li>
-              {%- endfor -%}
-            </ul>
-            <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-          </div>
-         
-      </div>
+    <div class="row d-flex justify-content-center">
+        <div class="col-sm-9"> 
+          <p class="h4">{{ page.title | default: "Photos" }}</p>
+          <ul class="list-unstyled">
+            {% for item in page.photos %}
+            {% assign photopath = item | replace: "/img", "/img/mid" %}
+            <li style="margin-bottom: 25px">
+              <figure class="figure">
+                <a target="_blank" href="/{{ item | escape }}">
+                  <img class="figure-img img-fluid" src="/{{ photopath | escape }}" />
+                </a>
+                <figcaption class="figure-caption">
+                    Click Image to Zoom In
+                </figcaption>
+              </figure>
+            </li>
+            {%- endfor -%}
+          </ul>
+        </div>
     </div>
+  </div>
 
     
   </section>

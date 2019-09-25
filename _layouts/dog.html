@@ -29,25 +29,25 @@ layout: default
                 <div class="col-sm-10">
                     <h1>{{ page.title | escape }}</h1>
                     {%- if page.breed -%}
-                    <p class="lead">{{ page.breed  | escape }}</p>
+                    <p class="lead text-light">{{ page.breed  | escape }}</p>
                     {%- endif -%}
                 </div>
                 <div class="col-sm-2"></div>
             </div>
             <div class="row">
-                <div class="col-sm-2">DOB</div>
-                <div class="col-sm-10">{{ page.dob | escape }}</div>
+                <div class="col-sm-2"><strong>DOB</strong></div>
+                <div class="col-sm-10 text-light">{{ page.dob | escape }}</div>
             </div>
             {%- if page.weight -%}
             <div class="row">
-                <div class="col-sm-2">Weight</div>
-                <div class="col-sm-10">{{ page.weight | escape }}</div>
+                <div class="col-sm-2"><strong>Weight</strong></div>
+                <div class="col-sm-10 text-light">{{ page.weight | escape }}</div>
             </div>
             {%- endif -%}
             {%- if page.registry -%}
             <div class="row">
-                <div class="col-sm-2">{{ page.registry  | escape }}</div>
-                <div class="col-sm-10">{{ page.registration  | escape }}</div>
+                <div class="col-sm-2"><strong>{{ page.registry  | escape }}</strong></div>
+                <div class="col-sm-10 text-light">{{ page.registration  | escape }}</div>
             </div>
             {%- endif -%}
             <div class="row">
@@ -56,50 +56,50 @@ layout: default
             </div>
             {%- if page.sire -%}
             <div class="row">
-                <div class="col-sm-2">Sire</div>
-                <div class="col-sm-10">{{ page.sire | escape }}</div>
+                <div class="col-sm-2"><strong>Sire</strong></div>
+                <div class="col-sm-10 text-light">{{ page.sire | escape }}</div>
             </div>
             {%- endif -%}
             {%- if page.dam -%}
             <div class="row">
-                <div class="col-sm-2">Dam</div>
-                <div class="col-sm-10">{{ page.dam | escape }}</div>
+                <div class="col-sm-2"><strong>Dam</strong></div>
+                <div class="col-sm-10 text-light">{{ page.dam | escape }}</div>
             </div>
             {%- endif -%}
             {%- if page.hips -%}
             <div class="row">
-                <div class="col-sm-2">Hips</div>
-                <div class="col-sm-10">{{ page.hips | escape }}</div>
+                <div class="col-sm-2"><strong>Hips</strong></div>
+                <div class="col-sm-10 text-light">{{ page.hips | escape }}</div>
             </div>
             {%- endif -%}
             {%- if page.elbows -%}
             <div class="row">
-                <div class="col-sm-2">Elbows</div>
-                <div class="col-sm-10">{{ page.elbows | escape }}</div>
+                <div class="col-sm-2"><strong>Elbows</strong></div>
+                <div class="col-sm-10 text-light">{{ page.elbows | escape }}</div>
             </div>
             {%- endif -%}
             {%- if page.knees -%}
             <div class="row">
-                <div class="col-sm-2">Knees</div>
-                <div class="col-sm-10">{{ page.knees | escape }}</div>
+                <div class="col-sm-2"><strong>Knees</strong></div>
+                <div class="col-sm-10 text-light">{{ page.knees | escape }}</div>
             </div>
             {%- endif -%}
             {%- if page.shoulders -%}
             <div class="row">
-                <div class="col-sm-2">Shoulders</div>
-                <div class="col-sm-10">{{ page.shoulders | escape }}</div>
+                <div class="col-sm-2"><strong>Shoulders</strong></div>
+                <div class="col-sm-10 text-light">{{ page.shoulders | escape }}</div>
             </div>
             {%- endif -%}
             {%- if page.heart -%}
             <div class="row">
-                <div class="col-sm-2">Heart</div>
-                <div class="col-sm-10">{{ page.heart | escape }}</div>
+                <div class="col-sm-2"><strong>Heart</strong></div>
+                <div class="col-sm-10 text-light">{{ page.heart | escape }}</div>
             </div>
             {%- endif -%}
             {%- if page.eyes -%}
             <div class="row">
-                <div class="col-sm-2">Eyes</div>
-                <div class="col-sm-10">{{ page.eyes | escape }}</div>
+                <div class="col-sm-2"><strong>Eyes</strong></div>
+                <div class="col-sm-10 text-light">{{ page.eyes | escape }}</div>
             </div>
             {%- endif -%}
             {%- if page.ancestor -%}
@@ -108,12 +108,12 @@ layout: default
                 <div class="col-sm-2"></div>
             </div>
             <div class="row">
-                <div class="col-sm-10">Notable ancestors</div>
+                <div class="col-sm-10"><strong>Champion Bloodlines</strong></div>
                 <div class="col-sm-2"></div>
             </div>
               {% for item in page.ancestor %}
               <div class="row">
-                  <div class="col-sm-10">{{ item | escape }}</div>
+                  <div class="col-sm-10 text-light">{{ item | escape }}</div>
                   <div class="col-sm-2"></div>
               </div>
               {% endfor %}
@@ -121,6 +121,6 @@ layout: default
         </div>
       </div>
       <hr/>
-      {{ content }}
+      <span class="text-light">{{ content }}</span>
   </section>
 </article>

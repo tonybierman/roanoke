@@ -26,14 +26,13 @@ title: Welcome!
                         <em>{{ post.date | date: date_format }}</em>
                         </span>
                         {%- if site.show_excerpts -%}
-                        {{ post.excerpt }}
+                        <span class="text-light">{{ post.excerpt }}</span>
                         {%- endif -%}
                     </figcaption>
                     </figure>
                 </li>
                 {%- endfor -%}
                 </ul>
-                <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
             {%- endif -%}
         </div>
         <div class="col-sm-3">
@@ -58,7 +57,7 @@ title: Welcome!
     {% else %}
         <span>&laquo; Prev</span>
     {% endif %}
-
+    &nbsp;
     {% for page in (1..paginator.total_pages) %}
         {% if page == paginator.page %}
         <em>{{ page }}</em>
@@ -67,6 +66,7 @@ title: Welcome!
         {% else %}
         <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
         {% endif %}
+        &nbsp;
     {% endfor %}
 
     {% if paginator.next_page %}
