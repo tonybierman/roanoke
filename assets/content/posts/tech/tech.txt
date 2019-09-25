@@ -5,4 +5,4 @@ ogimage: {2}
 tags: [{3}]
 author: Tony Bierman
 {1}---
-<h3>Technical Details for Photo</h3>
+<h3>{4}</h3>
