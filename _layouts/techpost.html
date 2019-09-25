@@ -12,10 +12,11 @@ layout: default
         <span class="border border-warning p-3 bg-light">
             <figure class="figure">
                 <span class="border border-warning">
-                  <img src="/assets/content/posts/tech/img/lg/{{ page.title }}.jpg" class="figure-img img-fluid"
-                  alt="{{ page.title | escape }}">
+                  <a title="{{ page.title | escape }}" href="/assets/content/posts/tech/img/{{ page.title }}.jpg"><img src="/assets/content/posts/tech/img/lg/{{ page.title }}.jpg" class="figure-img img-fluid"
+                    alt="{{ page.title | escape }}">
+                  </a>
                 </span>
-                <figcaption class="figure-caption"><p class="lead text-center">{{ page.title | escape }}</p></figcaption>
+                <figcaption class="figure-caption"><p class="lead text-center">{{ page.title | escape }}<br/>Click Image to Zoom In</p></figcaption>
             </figure>
         </span>
         <br/>
