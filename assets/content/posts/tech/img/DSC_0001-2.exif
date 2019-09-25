@@ -1,0 +1,178 @@
+﻿exif:
+  - entry:
+    key: ApertureValue
+    value: 5169925/1000000
+  - entry:
+    key: Artist
+    value: Tony Bierman
+  - entry:
+    key: CFAPattern
+    value: ImageMagick.ExifByteArray
+  - entry:
+    key: ColorSpace
+    value: sRGB
+  - entry:
+    key: ColorSpace
+    value: sRGB
+  - entry:
+    key: Contrast
+    value: Normal
+  - entry:
+    key: Copyright
+    value: 2016 Tony Bierman All rights reserved
+  - entry:
+    key: CustomRendered
+    value: 0
+  - entry:
+    key: DateTime
+    value: 2017:10:18 05:54:36
+  - entry:
+    key: DateTimeDigitized
+    value: 2016:05:06 07:16:40
+  - entry:
+    key: DateTimeOriginal
+    value: 2016:05:06 07:16:40
+  - entry:
+    key: DigitalZoomRatio
+    value: 1
+  - entry:
+    key: ExifVersion
+    value: ImageMagick.ExifByteArray
+  - entry:
+    key: ExposureBiasValue
+    value: 0/6
+  - entry:
+    key: ExposureMode
+    value: Auto
+  - entry:
+    key: ExposureProgram
+    value: Not Defined
+  - entry:
+    key: ExposureTime
+    value: 1/640
+  - entry:
+    key: FileSource
+    value: 03
+  - entry:
+    key: Flash
+    value: Auto, Did not fire
+  - entry:
+    key: FNumber
+    value: 6
+  - entry:
+    key: FocalLength
+    value: 2900/10
+  - entry:
+    key: FocalLengthIn35mmFilm
+    value: 435
+  - entry:
+    key: FocalPlaneResolutionUnit
+    value: Centimeter
+  - entry:
+    key: FocalPlaneXResolution
+    value: 83841555/32768
+  - entry:
+    key: FocalPlaneYResolution
+    value: 83841555/32768
+  - entry:
+    key: Format
+    value: Jpeg
+  - entry:
+    key: GainControl
+    value: Low gain up
+  - entry:
+    key: Height
+    value: 2121 pixels
+  - entry:
+    key: ISOSpeedRatings
+    value: 800
+  - entry:
+    key: Keyword
+    value: 2016 May
+  - entry:
+    key: Keyword
+    value: cat
+  - entry:
+    key: Keyword
+    value: cleo
+  - entry:
+    key: Keyword
+    value: NIKON D5500
+  - entry:
+    key: LensInfo
+    value: ImageMagick.ExifRationalArray
+  - entry:
+    key: LensModel
+    value: 150.0-500.0 mm f/5.0-6.3
+  - entry:
+    key: LightSource
+    value: Unknown
+  - entry:
+    key: Make
+    value: NIKON CORPORATION
+  - entry:
+    key: MaxApertureValue
+    value: 51/10
+  - entry:
+    key: MeteringMode
+    value: Multi-segment
+  - entry:
+    key: Model
+    value: NIKON D5500
+  - entry:
+    key: Orientation
+    value: Horizontal (normal)
+  - entry:
+    key: Quality
+    value: 99
+  - entry:
+    key: ResolutionUnit
+    value: Inches
+  - entry:
+    key: Saturation
+    value: Normal
+  - entry:
+    key: SceneCaptureType
+    value: Standard
+  - entry:
+    key: SceneType
+    value: 01
+  - entry:
+    key: SensingMethod
+    value: One-chip color area
+  - entry:
+    key: SensitivityType
+    value: Recommended Exposure Index
+  - entry:
+    key: SerialNumber
+    value: 2539064
+  - entry:
+    key: Sharpness
+    value: Normal
+  - entry:
+    key: ShutterSpeedValue
+    value: 9321928/1000000
+  - entry:
+    key: Software
+    value: Adobe Photoshop Lightroom 6.12 (Windows)
+  - entry:
+    key: SubjectDistanceRange
+    value: Unknown
+  - entry:
+    key: SubsecTimeDigitized
+    value: 26
+  - entry:
+    key: SubsecTimeOriginal
+    value: 26
+  - entry:
+    key: WhiteBalance
+    value: Auto
+  - entry:
+    key: Width
+    value: 2787 pixels
+  - entry:
+    key: XResolution
+    value: 240
+  - entry:
+    key: YResolution
+    value: 240

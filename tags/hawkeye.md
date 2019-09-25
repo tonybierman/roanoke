@@ -9,4 +9,5 @@ photos:
   - assets/content/posts/tech/img/DSC_1699.jpg
   - assets/content/posts/tech/img/DSC_1712.jpg
   - assets/content/posts/tech/img/DSC_4040.jpg
+  - assets/content/posts/tech/img/DSC_9732.jpg
 ---

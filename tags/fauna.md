@@ -4,5 +4,5 @@ author: Tony Bierman
 title: fauna
 fname: fauna
 photos:
-  - assets/content/posts/tech/img/DSC_0021.jpg
+  - assets/content/posts/tech/img/DSC_0144.jpg
 ---

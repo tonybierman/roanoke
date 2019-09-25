@@ -1,13 +1,19 @@
 ﻿photos:
+  - 873CDFCF-51F2-417A-A1B1-4AC37584D503_20180621171728284.jpg
+  - DSC_0001-2.jpg
   - DSC_0021.jpg
+  - DSC_0144.jpg
   - DSC_1693.jpg
   - DSC_1695.jpg
   - DSC_1699.jpg
   - DSC_1712.jpg
+  - DSC_3171.jpg
   - DSC_4040.jpg
   - DSC_4054.jpg
   - DSC_4321.jpg
   - DSC_4387.jpg
+  - DSC_4921.jpg
   - DSC_7008.jpg
   - DSC_8541.jpg
   - DSC_9158.jpg
+  - DSC_9732.jpg
