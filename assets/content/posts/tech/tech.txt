@@ -3,6 +3,7 @@ layout: techpost
 title: {0}
 ogimage: {2}
 tags: [{3}]
+thumb: {5}
 author: Tony Bierman
 {1}---
 <p class="h4">{4}</p>
