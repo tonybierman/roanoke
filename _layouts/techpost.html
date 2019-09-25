@@ -27,10 +27,8 @@ layout: default
       </div>
       <div class="row d-flex justify-content-center">
           <div class="col-sm-12 text-center m-3"><strong>Tags</strong>&nbsp;
-              {% for item in page.exif %}
-              {% if item.key == "Keyword" %}
-                <a href="/tags/{{ item.value | escape_once | downcase | url_encode }}.html" class="badge badge-info">{{ item.value | escape_once | downcase }}</a>
-              {% endif %}
+              {% for item in page.tags %}
+                <a href="/tags/{{ item | escape_once | downcase | url_encode }}.html" class="badge badge-info">{{ item | escape_once | downcase }}</a>
               {% endfor %}
           </div>
       </div>
