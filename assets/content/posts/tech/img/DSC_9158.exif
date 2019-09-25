@@ -1,0 +1,181 @@
+﻿exif:
+  - entry:
+    key: ApertureValue
+    value: 4643856/1000000
+  - entry:
+    key: Artist
+    value: Tony Bierman
+  - entry:
+    key: CFAPattern
+    value: ImageMagick.ExifByteArray
+  - entry:
+    key: ColorSpace
+    value: sRGB
+  - entry:
+    key: ColorSpace
+    value: Uncalibrated
+  - entry:
+    key: Contrast
+    value: Normal
+  - entry:
+    key: Copyright
+    value: All rights reserved
+  - entry:
+    key: CustomRendered
+    value: 0
+  - entry:
+    key: DateTime
+    value: 2019:02:11 09:09:51
+  - entry:
+    key: DateTimeDigitized
+    value: 2017:01:06 07:19:36
+  - entry:
+    key: DateTimeOriginal
+    value: 2017:01:06 07:19:36
+  - entry:
+    key: DigitalZoomRatio
+    value: 1
+  - entry:
+    key: ExifVersion
+    value: ImageMagick.ExifByteArray
+  - entry:
+    key: ExposureBiasValue
+    value: 0/6
+  - entry:
+    key: ExposureMode
+    value: Auto
+  - entry:
+    key: ExposureProgram
+    value: Not Defined
+  - entry:
+    key: ExposureTime
+    value: 1/100
+  - entry:
+    key: FileSource
+    value: 03
+  - entry:
+    key: Flash
+    value: Auto, Did not fire
+  - entry:
+    key: FNumber
+    value: 5
+  - entry:
+    key: FocalLength
+    value: 350/10
+  - entry:
+    key: FocalLengthIn35mmFilm
+    value: 52
+  - entry:
+    key: FocalPlaneResolutionUnit
+    value: Centimeter
+  - entry:
+    key: FocalPlaneXResolution
+    value: 83841555/32768
+  - entry:
+    key: FocalPlaneYResolution
+    value: 83841555/32768
+  - entry:
+    key: Format
+    value: Jpeg
+  - entry:
+    key: GainControl
+    value: Low gain up
+  - entry:
+    key: Height
+    value: 3638 pixels
+  - entry:
+    key: ISOSpeedRatings
+    value: 800
+  - entry:
+    key: Keyword
+    value: 2017 Jan
+  - entry:
+    key: Keyword
+    value: house
+  - entry:
+    key: Keyword
+    value: NIKON D7200
+  - entry:
+    key: Keyword
+    value: ranch
+  - entry:
+    key: Keyword
+    value: snow
+  - entry:
+    key: LensInfo
+    value: ImageMagick.ExifRationalArray
+  - entry:
+    key: LensModel
+    value: 35.0 mm f/1.8
+  - entry:
+    key: LightSource
+    value: Unknown
+  - entry:
+    key: Make
+    value: NIKON CORPORATION
+  - entry:
+    key: MaxApertureValue
+    value: 16/10
+  - entry:
+    key: MeteringMode
+    value: Multi-segment
+  - entry:
+    key: Model
+    value: NIKON D7200
+  - entry:
+    key: Orientation
+    value: Horizontal (normal)
+  - entry:
+    key: Quality
+    value: 91
+  - entry:
+    key: ResolutionUnit
+    value: Inches
+  - entry:
+    key: Saturation
+    value: Normal
+  - entry:
+    key: SceneCaptureType
+    value: Standard
+  - entry:
+    key: SceneType
+    value: 01
+  - entry:
+    key: SensingMethod
+    value: One-chip color area
+  - entry:
+    key: SensitivityType
+    value: Recommended Exposure Index
+  - entry:
+    key: SerialNumber
+    value: 2546669
+  - entry:
+    key: Sharpness
+    value: Normal
+  - entry:
+    key: ShutterSpeedValue
+    value: 6643856/1000000
+  - entry:
+    key: Software
+    value: Adobe Photoshop Camera Raw 11.1 (Windows)
+  - entry:
+    key: SubjectDistanceRange
+    value: Unknown
+  - entry:
+    key: SubsecTimeDigitized
+    value: 29
+  - entry:
+    key: SubsecTimeOriginal
+    value: 29
+  - entry:
+    key: WhiteBalance
+    value: Auto
+  - entry:
+    key: Width
+    value: 5457 pixels
+  - entry:
+    key: XResolution
+    value: 300
+  - entry:
+    key: YResolution
+    value: 300
