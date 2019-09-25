@@ -12,7 +12,7 @@ layout: default
   </section>
   <div class="container">
     <div class="row d-flex justify-content-center">
-        <div class="col-sm-6">
+        <div class="col-sm-8">
             {%- if site.posts.size > 0 -%}
               <p class="h4">{{ page.list_title | default: "Posts" }}</p>
               <ul class="list-unstyled">
@@ -36,7 +36,7 @@ layout: default
               <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
             {%- endif -%}
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-4">
             <p class="h4">Tags</p>
             {% for tag in site.tags %}
               <h6><a href="/tags/{{ tag[0] | escape_once | url_encode }}.html">{{ tag[0] | escape_once }}</a></h6>
