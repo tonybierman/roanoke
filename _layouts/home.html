@@ -38,9 +38,8 @@ layout: default
         </div>
         <div class="col-sm-6">
             <p class="h4">Tags</p>
-            {% assign sorted_tags = site.tags | sort:"value | escape_once" %}
             {% for tag in site.tags %}
-              <h6>{{ tag[0] }}</h6>
+              <h6><a href="/tags/{{ tag[0] | escape_once | url_encode }}.html">{{ tag[0] | escape_once }}</a></h6>
               <ul>
                 {% for post in tag[1] %}
                   <li><a href="{{ post.url }}">{{ post.title }}</a></li>
