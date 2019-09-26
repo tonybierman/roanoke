@@ -6,4 +6,6 @@ fname: jack
 photos:
   - assets/content/posts/tech/img/DSC_4321.jpg
   - assets/content/posts/tech/img/DSC_4387.jpg
+  - assets/content/posts/tech/img/DSC_4818.jpg
+  - assets/content/posts/tech/img/DSC_4827.jpg
 ---

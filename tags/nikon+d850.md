@@ -13,6 +13,12 @@ photos:
   - assets/content/posts/tech/img/DSC_4054.jpg
   - assets/content/posts/tech/img/DSC_4321.jpg
   - assets/content/posts/tech/img/DSC_4387.jpg
+  - assets/content/posts/tech/img/DSC_4453.jpg
+  - assets/content/posts/tech/img/DSC_4514.jpg
+  - assets/content/posts/tech/img/DSC_4546.jpg
+  - assets/content/posts/tech/img/DSC_4671.jpg
+  - assets/content/posts/tech/img/DSC_4818.jpg
+  - assets/content/posts/tech/img/DSC_4827.jpg
   - assets/content/posts/tech/img/DSC_4959_BW.jpg
   - assets/content/posts/tech/img/DSC_7008.jpg
   - assets/content/posts/tech/img/DSC_7956.jpg
