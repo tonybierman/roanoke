@@ -11,20 +11,13 @@ layout: default
       <div class="row d-flex justify-content-center">
         <span class="border border-warning p-3 bg-light">
             <figure class="figure">
-                <span class="border border-warning">
-                  <a title="{{ page.title | escape }}" href="/assets/content/posts/tech/img/{{ page.title }}.jpg"><img src="/assets/content/posts/tech/img/lg/{{ page.title }}.jpg" class="figure-img img-fluid"
-                    alt="{{ page.title | escape }}">
-                  </a>
-                </span>
-                <figcaption class="figure-caption"><p class="lead text-center">{{ page.title | escape }}<br/>Click Image to Zoom In</p></figcaption>
+              <a title="{{ page.title | escape }}" href="/assets/content/posts/tech/img/{{ page.title }}.jpg"><img src="/assets/content/posts/tech/img/lg/{{ page.title }}.jpg" class="figure-img img-fluid"
+                alt="{{ page.title | escape }}">
+              </a>
+              <figcaption class="figure-caption text-center">{{ content }}<p class="lead text-center">Click Image to Zoom In</p></figcaption>
             </figure>
         </span>
         <br/>
-      </div>
-      <div class="row d-flex justify-content-center">
-          <div class="col-sm-12 text-center m-3">
-              {{ content }}
-          </div>
       </div>
       <div class="row d-flex justify-content-center">
           <div class="col-sm-12 text-center m-3"><strong>Tags</strong>&nbsp;
