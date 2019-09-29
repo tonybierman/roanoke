@@ -29,6 +29,9 @@ photos:
   - assets/content/posts/tech/img/DSC_5357_1.jpg
   - assets/content/posts/tech/img/DSC_5401.jpg
   - assets/content/posts/tech/img/DSC_5413.jpg
+  - assets/content/posts/tech/img/DSC_5437_1.jpg
+  - assets/content/posts/tech/img/DSC_5678_1.jpg
+  - assets/content/posts/tech/img/DSC_5713.jpg
   - assets/content/posts/tech/img/DSC_7008.jpg
   - assets/content/posts/tech/img/DSC_7956.jpg
   - assets/content/posts/tech/img/DSC_9129.jpg

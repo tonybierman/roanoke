@@ -17,4 +17,5 @@ photos:
   - assets/content/posts/tech/img/DSC_4546.jpg
   - assets/content/posts/tech/img/DSC_4671.jpg
   - assets/content/posts/tech/img/DSC_4959_BW.jpg
+  - assets/content/posts/tech/img/DSC_5437_1.jpg
 ---

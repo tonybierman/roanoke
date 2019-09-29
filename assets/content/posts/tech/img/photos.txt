@@ -33,6 +33,9 @@
   - DSC_5357_1.jpg
   - DSC_5401.jpg
   - DSC_5413.jpg
+  - DSC_5437_1.jpg
+  - DSC_5678_1.jpg
+  - DSC_5713.jpg
   - DSC_7008.jpg
   - DSC_7956.jpg
   - DSC_8541.jpg
