@@ -32,7 +32,10 @@ photos:
   - assets/content/posts/tech/img/DSC_5437_1.jpg
   - assets/content/posts/tech/img/DSC_5678_1.jpg
   - assets/content/posts/tech/img/DSC_5713.jpg
+  - assets/content/posts/tech/img/DSC_7002.jpg
   - assets/content/posts/tech/img/DSC_7008.jpg
+  - assets/content/posts/tech/img/DSC_7086.jpg
+  - assets/content/posts/tech/img/DSC_7170.jpg
   - assets/content/posts/tech/img/DSC_7956.jpg
   - assets/content/posts/tech/img/DSC_9129.jpg
 ---
