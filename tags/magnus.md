@@ -1,12 +1,9 @@
 ---
 layout: tagpage
 author: Tony Bierman
-title: 2019 oct
-fname: 2019+oct
+title: magnus
+fname: magnus
 photos:
-  - assets/content/posts/tech/img/DSC_7002.jpg
-  - assets/content/posts/tech/img/DSC_7086.jpg
-  - assets/content/posts/tech/img/DSC_7170.jpg
   - assets/content/posts/tech/img/DSC_7180.jpg
   - assets/content/posts/tech/img/DSC_7184.jpg
   - assets/content/posts/tech/img/DSC_7196.jpg
