@@ -1,0 +1,37 @@
+﻿exif:
+  - entry:
+    key: ColorSpace
+    value: sRGB
+  - entry:
+    key: ColorSpace
+    value: Uncalibrated
+  - entry:
+    key: ExifVersion
+    value: ImageMagick.ExifByteArray
+  - entry:
+    key: Format
+    value: Jpeg
+  - entry:
+    key: Height
+    value: 3754 pixels
+  - entry:
+    key: Keyword
+    value: akc
+  - entry:
+    key: Keyword
+    value: dog
+  - entry:
+    key: Keyword
+    value: great pyrenees
+  - entry:
+    key: Keyword
+    value: magnus
+  - entry:
+    key: Orientation
+    value: Horizontal (normal)
+  - entry:
+    key: Quality
+    value: 95
+  - entry:
+    key: Width
+    value: 5256 pixels
