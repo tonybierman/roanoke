@@ -58,6 +58,11 @@
   - DSC_8130_1.jpg
   - DSC_8198.jpg
   - DSC_8220_1.jpg
+  - DSC_8263.jpg
+  - DSC_8277.jpg
+  - DSC_8316_1.jpg
+  - DSC_8346.jpg
+  - DSC_8351.jpg
   - DSC_8541.jpg
   - DSC_9129.jpg
   - DSC_9158.jpg
