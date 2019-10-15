@@ -8,4 +8,6 @@ photos:
   - assets/content/posts/tech/img/DSC_1695.jpg
   - assets/content/posts/tech/img/DSC_1699.jpg
   - assets/content/posts/tech/img/DSC_1712.jpg
+  - assets/content/posts/tech/img/DSC_8486.jpg
+  - assets/content/posts/tech/img/DSC_8511.jpg
 ---

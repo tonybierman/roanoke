@@ -63,6 +63,8 @@
   - DSC_8316_1.jpg
   - DSC_8346.jpg
   - DSC_8351.jpg
+  - DSC_8486.jpg
+  - DSC_8511.jpg
   - DSC_8541.jpg
   - DSC_9129.jpg
   - DSC_9158.jpg
