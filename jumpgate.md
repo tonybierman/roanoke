@@ -1,7 +1,7 @@
 ---
 layout: gallery
 slug: jumpgate
-title: Mini Puppy Jump Gate
+title: Mini Puppy Jump Gate™
 photos:
   - DSC_3759.jpg
   - DSC_3766.jpg
@@ -13,7 +13,7 @@ photos:
   - DSC_3955.jpg
   - plans.jpg
 ---
-<p>Illustrations and plans for my Mini Puppy Jump Gate.  I use this gate as part of my LGD Embedding Process.</p>
+<p>Here are photos and plans for my Mini Puppy Jump Gate.  I use this gate as part of my LGD Embedding Process.</p>
 <p>I will embed my LGD with my stock as early as eight weeks. I believe in young, full time embedding. But, with some caveats.</p>
 <ol>
 <li>I get my puppies from working parents who have been on the same kind of stock I have</li>
