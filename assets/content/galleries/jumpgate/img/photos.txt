@@ -1,0 +1,5 @@
+﻿photos:
+  - DSC_3759.jpg
+  - DSC_3766.jpg
+  - DSC_3769.jpg
+  - plans.jpg
