@@ -4,7 +4,7 @@ title: Josie
 slug: josie
 dob: 04/14/2018
 fullname: Natchez Trace Josie of Westernview Farm
-dam: 'PR' Miss Molly of the Blue Ridge
+dam: Miss Molly of the Blue Ridge
 sire: Artesian Valley Old Joe
 photos:
   - DSC_0170.jpg

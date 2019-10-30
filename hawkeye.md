@@ -2,7 +2,7 @@
 layout: dog
 slug: hawkeye
 title: Hawkeye
-dob: 05/25/2019
+dob: 05/25/2017
 fullname: Natchez Trace Hawkeye of Artesian Valley
 breed: English Shepherd
 dam: Artesian Valley Sioux
