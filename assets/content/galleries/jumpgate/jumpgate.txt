@@ -1,0 +1,6 @@
+---
+layout: gallery
+slug: jumpgate
+title: Mini Puppy Jump gate
+{0}---
+<p>Illustrations and plans for my Mini Puppy Jump Gate</p>
