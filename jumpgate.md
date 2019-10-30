@@ -8,4 +8,4 @@ photos:
   - DSC_3769.jpg
   - plans.jpg
 ---
-<p>Illustrations and plans for my Mini Puppy Jump Gate</p>
+<p>Illustrations and plans for my Mini Puppy Jump Gate.  I use this gate as part of my LGD Embedding Process.</p>

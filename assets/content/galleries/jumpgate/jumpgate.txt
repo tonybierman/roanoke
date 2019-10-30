@@ -3,4 +3,4 @@ layout: gallery
 slug: jumpgate
 title: Mini Puppy Jump gate
 {0}---
-<p>Illustrations and plans for my Mini Puppy Jump Gate</p>
+<p>Illustrations and plans for my Mini Puppy Jump Gate.  I use this gate as part of my LGD Embedding Process.</p>
