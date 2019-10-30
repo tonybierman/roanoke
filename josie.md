@@ -2,7 +2,9 @@
 layout: dog
 title: Josie
 slug: josie
+breed: English Shepherd
 dob: 04/14/2018
+registry: UKC
 fullname: Natchez Trace Josie of Westernview Farm
 dam: Miss Molly of the Blue Ridge
 sire: Artesian Valley Old Joe
