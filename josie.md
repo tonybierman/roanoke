@@ -2,8 +2,10 @@
 layout: dog
 title: Josie
 slug: josie
-dam: Lorem Ipsum
-sire: Lorem Ipsum
+dob: 04/14/2018
+fullname: Natchez Trace Josie of Westernview Farm
+dam: 'PR' Miss Molly of the Blue Ridge
+sire: Artesian Valley Old Joe
 photos:
   - DSC_0170.jpg
   - DSC_0294.jpg
@@ -20,4 +22,4 @@ photos:
   - DSC_8581.jpg
   - DSC_8691.jpg
 ---
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p></p>
