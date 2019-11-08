@@ -73,8 +73,8 @@ header_pages:
       title: Josie
       path: josie.html
   - page: 
-      title: Jump Gate
-      path: jumpgate.html
+      title: Articles
+      path: articles.html
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

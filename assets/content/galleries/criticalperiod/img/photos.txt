@@ -1,0 +1,9 @@
+﻿photos:
+  - DSC_3488.jpg
+  - DSC_3766.jpg
+  - DSC_4981.jpg
+  - DSC_5917.jpg
+  - DSC_6574.jpg
+  - DSC_9278.jpg
+  - DSC_9319.jpg
+  - IMG_2778.jpg

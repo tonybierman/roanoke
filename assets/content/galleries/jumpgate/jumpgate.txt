@@ -13,3 +13,10 @@ title: Mini Puppy Jump Gate™
 <li>I do controlled feedings. Puppies are fed in the safe space and stay there until adults have eaten.</li>
 </ol>
 <p><a href="/assets/content/galleries/jumpgate/img/plans.jpg">View Full Size Plans</a></p>
+<div class="card p-3 mb-2 bg-secondary text-white" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">See Also</h5>
+    <h6 class="card-subtitle mb-2 text-dark">Please also see these related resources</h6>
+    <a href="/criticalperiod.html" class="card-link">Daily Protocol for Embedded LGD Puppies</a>
+  </div>
+</div>
